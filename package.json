@@ -1,0 +1,25 @@
+{
+  "name": "plugin-workflow-helper",
+  "version": "0.1.0",
+  "description": "Helper to make plugins releases more convenient and prevent wrong tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pwh": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tilmanpotthof/plugin-workflow-helper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilmanpotthof/plugin-workflow-helper/issues"
+  },
+  "homepage": "https://github.com/tilmanpotthof/plugin-workflow-helper",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
